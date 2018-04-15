@@ -1,0 +1,12 @@
+from _ast import Global
+
+from futuquant import OpenQuoteContext
+
+SYSTEM_STATUS_EMPTY = 0
+SYSTEM_STATUS_CALL = 1
+SYSTEM_STATUS_PULL = 2
+
+TENCENT="HK.00700"
+LOCAL_HOST="127.0.0.1"
+LOCAL_PORT=11111
+KEY_DAY='K_DAY'
